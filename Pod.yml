@@ -4,7 +4,7 @@ metadata:
   name: testpod1
   namespace: test1
   labels:
-    name: test Pod
+    name: testPod
 spec:
   containers:
  —name: testpod1
