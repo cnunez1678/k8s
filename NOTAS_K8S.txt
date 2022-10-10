@@ -1,0 +1,30 @@
+kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml --namespace=test1
+
+
+
+
+kubectl config set-context --current --namespace=test1
+
+http://192.168.20.40:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=test1
+
+
+
+
+
+enlaces 
+*****************************************************************
+
+https://www.adictosaltrabajo.com/2020/05/11/desplegar-aplicaciones-en-kubernetes-con-helm/
+https://helm.sh/docs/topics/chart_tests/
+http://192.168.20.40:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=test1
+https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-namespace/
+https://kubernetes.io/docs/concepts/workloads/pods/
+https://github.com/cnunez1678/k8s
+
+Cursos Udemy:
+
+https://globant.udemy.com/course/learn-kubernetes/learn/lecture/9723214#overview
+
+
+
+
